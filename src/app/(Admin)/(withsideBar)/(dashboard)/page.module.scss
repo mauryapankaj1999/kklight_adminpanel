@@ -1,0 +1,44 @@
+.listcard {
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    li {
+      flex: 1;
+      .cardbox {
+        background-color: #e9ecd5;
+        padding: 20px 15px;
+        display: flex;
+        border-radius: 5px;
+        gap: 15px;
+        align-items: center;
+        .cardtext {
+          h3 {
+            font-size: 1.2rem;
+            // margin-bottom: 0;
+            font-weight: 600;
+          }
+          h6 {
+            font-size: 1rem;
+            margin-bottom: 0;
+            font-weight: 500;
+          }
+        }
+      }
+      &:nth-child(2) .cardbox {
+        background-color: #e3eddb;
+      }
+      &:nth-child(3) .cardbox {
+        background-color: #dfe3d9;
+      }
+      &:nth-child(4) .cardbox {
+        background-color: #e7eae5;
+      }
+      &:nth-child(5) .cardbox {
+        background-color: #e5eed6;
+      }
+    }
+  }
+}

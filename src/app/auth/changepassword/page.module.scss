@@ -1,0 +1,88 @@
+.logisection{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .logincard{
+        background-color: #fff;
+        box-shadow: 0px 2px 12px 0px #0000001F;
+        border-radius: 10px;
+        padding: 2.5rem 2.5rem;
+        h3{
+            margin-bottom: 0.4rem;
+            font-weight: 600;
+            color: var(--primarycolor);
+        }
+    }
+}
+.bglogin{
+    background: linear-gradient(90deg, #D3E7F4 0%, #E6F8CA 100%);
+}
+.bordertab{
+    border: 2px solid #dfdfdf;
+    padding: 5px;
+
+    .imgcaptreu{
+        margin: auto;
+        width: 50%;
+        position: relative;
+        height: 40px;
+        
+        img{
+            object-fit: contain;
+        }
+    }
+
+}
+.btnreff{
+    background-color: #fff;
+    border: none !important;
+    svg{
+        font-size: 30px;
+    }
+}
+.checkboxclor{
+    accent-color: #d72625;
+}
+.forgetbtn{
+    background-color: #fff;
+    border: none;
+    color: #d72625;
+}
+.loginbtn{
+    background-color: #4c5d34 !important;
+    color: #fff !important;
+    height: 50px;
+}
+.termtext{
+    text-align: center;
+    font-size: 11px;
+}
+.topleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bottomright{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.priceconten{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.passp{
+    color: var(--primarygraycolor);
+    font-weight: 500;
+    font-size: 14px;
+}
+.bakloing{
+    color: var(--primarycolor);
+    font-weight: 500;
+}

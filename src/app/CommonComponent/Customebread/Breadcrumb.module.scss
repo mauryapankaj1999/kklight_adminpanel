@@ -1,0 +1,47 @@
+.bradumsection{
+    padding: 0px 20px;
+    .customeection{
+        display: flex;
+        gap: 10px;
+        padding: 2rem 0px;
+        z-index: -1;
+        position: relative;
+        
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+            padding: 0;
+            margin-bottom: 0;
+            
+            li{
+                position: relative;
+                color: var(--primarygraycolor);
+                a{
+                    color: var(--primarycolor);
+                    text-decoration: none !important;
+                }
+                &::after{
+                    position: absolute;
+                    content: '/';
+                    top: 0;
+                    right: -10px;
+                    color: #555555;
+                }
+                &:last-child::after{
+                    content: unset;
+                }
+            }
+        }
+    }
+}
+.logogroup{
+    position: relative;
+    width: 217px;
+    height: 70px;
+
+    img{
+        object-fit: contain;
+    }
+
+}
